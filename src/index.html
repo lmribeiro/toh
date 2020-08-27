@@ -23,7 +23,23 @@
   src="https://www.facebook.com/tr?id=723862138395322&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-
+<!-- Egoi Web Push Code -->
+<script type="text/javascript">
+  var _egoiwp = _egoiwp || {};
+  (function () {
+    var u = "https://cdn-static.egoiapp2.com/";
+    _egoiwp.code = "1f9adc81f9b7e62d94e7ab505f9597e7";
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.type = 'text/javascript';
+    g.defer = true;
+    g.async = true;
+    g.src = u + 'webpush.js';
+    s.parentNode.insertBefore(g, s);
+  })();
+</script>
+<!-- End Egoi Web Push Code -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
 </head>
 <body>
   <app-root></app-root>

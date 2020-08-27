@@ -38,6 +38,9 @@ MIT
 @angular/router
 MIT
 
+@angular/service-worker
+MIT
+
 angular-in-memory-web-api
 MIT
 The MIT License
